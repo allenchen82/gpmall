@@ -14,6 +14,14 @@ import org.apache.commons.lang3.StringUtils;
 @Data
 public class TotalCommentRequest extends AbstractRequest {
 
+    public void setItemId(String itemId) {
+        this.itemId = itemId;
+    }
+
+    public void setType(Integer type) {
+        this.type = type;
+    }
+
     /**
      * 商品id
      */

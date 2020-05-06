@@ -11,4 +11,8 @@ import lombok.Data;
 public class TotalCommentResponse extends AbstractResponse {
 
     private long total;
+
+    public long getTotal() {
+        return total;
+    }
 }

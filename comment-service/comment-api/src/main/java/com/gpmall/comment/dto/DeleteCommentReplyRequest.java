@@ -19,6 +19,14 @@ public class DeleteCommentReplyRequest extends AbstractRequest {
      */
     private String commentReplyId;
 
+    public String getCommentReplyId() {
+        return commentReplyId;
+    }
+
+    public Long getUserId() {
+        return userId;
+    }
+
     /**
      * 删除人id
      */
